@@ -4,9 +4,11 @@ header {
         max-width: 175px;
         border-radius: 50%;
     }
+
     h1 { 
         color: map-get($color-mdq, blanco-1);
         font-size: 1.4rem; }
+
     p {  color: map-get($color-mdq, gris); }
 }
 
