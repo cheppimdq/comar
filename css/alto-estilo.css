@@ -57,6 +57,8 @@ body img {
 }
 
 header .foto-redonda {
+  max-height: 175px;
+  max-width: 175px;
   border-radius: 50%;
 }
 header h1 {

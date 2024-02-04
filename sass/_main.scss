@@ -1,5 +1,9 @@
 header { 
-    .foto-redonda { border-radius: 50%; }
+    .foto-redonda {
+        max-height: 175px;
+        max-width: 175px;
+        border-radius: 50%;
+    }
     h1 { 
         color: map-get($color-mdq, blanco-1);
         font-size: 1.4rem; }
