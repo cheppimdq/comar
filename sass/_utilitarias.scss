@@ -1,0 +1,10 @@
+.link {
+    color: map-get($color-mdq, blanco-2);
+    &:hover { color: map-get($color-mdq, blanco); };
+    background-color: map-get($color-mdq, negro);
+    border-radius: 4px;
+    padding: .7rem;
+    margin: .7rem;
+    transition: ease all 0.3s;
+    &:hover { opacity: 0.8; };
+}

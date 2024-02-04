@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap");
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.25rem;
+  padding: 1.25rem;
+  background-image: url(../assets/img/prism.png);
+  background-color: #333333;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Brygada 1918, serif";
+  color: #eeeeee;
+  font-size: 1rem;
+}
+body p {
+  font-family: "Atkinson Hyperlegible, sans-serif";
+  font-size: 1rem;
+}
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+  font-family: "Atkinson Hyperlegible, sans-serif";
+  font-size: 1rem;
+  list-style: none;
+  display: block;
+}
+body img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.link {
+  color: #cccccc;
+  background-color: #000000;
+  border-radius: 4px;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  transition: ease all 0.3s;
+}
+.link:hover {
+  color: #ffffff;
+}
+.link:hover {
+  opacity: 0.8;
+}
+
+header .foto-redonda {
+  border-radius: 50%;
+}
+header h1 {
+  color: #eeeeee;
+  font-size: 1.4rem;
+}
+header p {
+  color: #767676;
+}
+
+footer h6 {
+  color: #767676;
+}/*# sourceMappingURL=alto-estilo.css.map */

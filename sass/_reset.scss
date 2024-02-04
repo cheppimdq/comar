@@ -1,0 +1,44 @@
+::-webkit-scrollbar { display: none;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1.25rem;
+    padding: 1.25rem;
+    background-image: url(../assets/img/prism.png);
+    background-color: map-get($color-mdq, negro-1);
+
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: map-get($fuente-mdq, con-serif);
+        color: map-get($color-mdq, blanco-1,);
+        font-size: 1rem;
+    }
+
+    p { 
+        font-family: map-get($fuente-mdq, sin-serif);
+        color: map-get($color-mdq, gris-medio);
+        font-size: 1rem;
+    }
+
+    ul { list-style: none; }
+
+    a {
+        text-decoration: none;
+        font-family: map-get($fuente-mdq, sin-serif);
+        color: map-get($color-mdq, gris-medio);
+        font-size: 1rem;
+        list-style: none;
+        display: block
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
