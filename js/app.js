@@ -5,7 +5,7 @@ document.oncontextmenu = function() {
 }
 
 function right(e) {
-    var msg ="Lautaro Cheppi © 2023 All Rights Reserved";
+    var msg =" 2024 © Lautaro Cheppi";
     if (navigator.appName == 'Netscape' && e.which == 3) {
     alert(msg);
     return false;
